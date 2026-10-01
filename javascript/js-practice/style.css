@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mode_btn {
+  background-color: orangered;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  width: 150px;
+}
+
+.dark {
+  background-color: rgb(45, 5, 82);
+}
