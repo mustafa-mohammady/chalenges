@@ -50,7 +50,7 @@ const updatePizzaDisplay = (pizzaElement, newSize) => {
 // Task 3: Define the function `updateOutputColor` here
 
 const updateOutputColor = (size1, size2) => {
-  if (Number(size1) > Number(size2)) {
+  if (Number(size1) <= Number(size2)) {
     outputSection.style.backgroundColor = `var(--red)`;
   } else {
     outputSection.style.backgroundColor = `var(--green)`;
